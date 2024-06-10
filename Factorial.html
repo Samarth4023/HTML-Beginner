@@ -1,0 +1,26 @@
+<html>
+
+<head>
+	<title>Factorial of number</title>
+</head>
+
+<body>
+	<script type="text/javascript">
+		var number = prompt("Enter number", "");
+		if (number < 0) {
+			document.write("Negative number doesn't have factorial");
+		}
+		else if (number == 0) {
+			document.write("The factorial of" + number + "is 1");
+		}
+		else {
+			var fact = 1;
+			for (i = 1; i <= number; i++) {
+				fact = fact * i;
+			}
+		document.write("Factorial of " + number + "=" + fact, "<br>");
+		}
+	</script>
+</body>
+
+</html>

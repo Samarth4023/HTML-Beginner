@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Switchcase demo</title>
+</head>
+<body>
+	<h1>Processing on any number</h1>
+	<br><br>
+	<h2>Menu</h2>
+	<h3 id="sq">square of number</h3>
+	<h3 id="cube">Cube of number</h3>
+	<script type="text/javascript">
+	var a=prompt("Enter any number");
+	var ch=prompt("Enter your choice");
+	switch(ch)
+	{
+		case'sq':
+		document.write("Square of number="+(a*a));
+		break;
+		
+		case'cube':
+		document.write("cube of number="+(a*a*a));
+		break;
+		
+		default:	
+		document.write("Enter correct choice");
+	
+	}
+</script>
+</body>
+</html>

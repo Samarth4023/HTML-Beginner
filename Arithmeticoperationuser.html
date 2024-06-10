@@ -1,0 +1,37 @@
+<html>
+
+<head>
+	<title>Arithmetic Operater from user</title>
+</head>
+
+<body>
+	<h1 align="center">Arithmetic Operater from User</h1>
+	<br>
+	<br>
+	<script type="text/javascript">
+		var number1, number2, sum, sub, mult, div, mod;
+
+		number1 = window.prompt("Enter the First number:", "0");
+		number2 = window.prompt("Enter the Second number:", "0");
+
+		number2 = parseInt(number2);
+		number1 = parseInt(number1);
+
+		sum = number2 + number1
+		document.write("Addition=" + sum + "<br>");
+
+		sub = number2 - number1
+		document.write("Subtraction=" + sub + "<br>");
+
+		mult = number2 * number1
+		document.write("Multiplication=" + mult + "<br>");
+
+		div = number2 / number1
+		document.write("Division=" + div + "<br>");
+
+		mod = number2 % number1
+		document.write("Module=" + mod + "<br>");
+	</script>
+</body>
+
+</html>

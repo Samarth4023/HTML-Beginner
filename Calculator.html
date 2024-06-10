@@ -1,0 +1,36 @@
+<html>
+
+<head>
+	<title>Calculator</title>
+</head>
+
+<body>
+	<h1 align="center">Arithmetic Calculator</h1><br><br><br>
+		<script type="text/javascript">
+			var operator = prompt("Enter your operator", "");
+			var number1 = parseInt(prompt("enter first number", ""));
+			var number2 = parseInt(prompt("enter second number", ""));
+			if (operator == '+') {
+				result = number1 + number2;
+			}
+
+			else if (operator == '-') {
+				result = number1 - number2;
+			}
+
+			else if (operator == '*') {
+				result = number1 * number2;
+			}
+
+			else if (operator == '/') {
+				result = number1 / number2;
+			}
+
+			else {
+				document.write("Sorry!! Invalid operator")
+			}
+			document.write("<h1 align=center>",number1 + operator + number2 + "=" + result, "</h1>");
+		</script>
+</body>
+
+</html>

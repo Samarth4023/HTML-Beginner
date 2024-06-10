@@ -1,0 +1,25 @@
+<html>
+
+<head>
+	<title>Nested..if Demo</title>
+</head>
+
+<body>
+	<script type="text/javascript">
+		var age = parseInt(prompt("Enter your age", ""));
+		if (age >= 18) {
+			var licanse = window.prompt("Do you have a licanse", "");
+			if (licanse == 'yes') {
+				document.write("<h1>You can drive</h1>");
+			}
+			else {
+				document.write("<h1>You are not qualified for driving</h1>");
+			}
+		}
+		else {
+			document.write("<h1>You are not qualified for driving</h1>");
+		}
+	</script>
+</body>
+
+</html>
